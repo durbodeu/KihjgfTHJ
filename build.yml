@@ -17,8 +17,6 @@ jobs:
   main:
     runs-on: [self-hosted,FlipperZero]
     steps:
-      - name: 'Cleanup workspace'
-        uses: AutoModality/action-clean@v1
 
       - name: 'Decontaminate previous build leftovers'
         run: |
